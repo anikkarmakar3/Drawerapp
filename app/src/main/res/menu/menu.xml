@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="my account">
+
+        <menu>
+            <item android:id="@+id/homeFragment"
+                android:title="Home"
+                android:icon="@drawable/ic_option"/>
+            <item android:id="@+id/profileFragment2"
+                android:title="profile"/>
+            <item android:id="@+id/notificationFragment"
+                android:title="Notification"/>
+        </menu>
+    </item>
+    <item
+        android:title="Others">
+
+    </item>
+</menu>
